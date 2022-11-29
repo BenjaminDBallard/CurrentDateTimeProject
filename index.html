@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title></title>
     <script src="main.js"></script>
   </head>
   <body>
     <h1>Hello World!</h1>
-    <hr/>
+    <hr />
     <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
-    <hr/>
+    <button onclick="displayDate()">Date/Time</button>
+    <hr />
+    <div id="display-element-2"></div>
+    <input id="num-str" type="text" />
+    <button onclick="numString()">Convert to STR</button>
+    <hr />
+    <div id="display-element-3"></div>
+    <input id="str-num" type="text" />
+    <button onclick="stringNum()">Convert to Num</button>
+    <hr />
+    <div id="display-element-4"></div>
+    <input id="type" type="text" />
+    <button onclick="dataType()">Data Type</button>
+    <hr />
+    <div id="display-element-5"></div>
+    <input id="num1" type="text" />
+    <input id="num2" type="text" />
+    <button onclick="add()">Add</button>
+    <hr />
+    <div id="display-element-6">both are false</div>
+    <input id="dot1" name="truthy" type="checkbox" onclick="truth()" />
+    <input id="dot2" name="truthy" type="checkbox" onclick="truth()" />
+    <hr />
   </body>
 </html>
